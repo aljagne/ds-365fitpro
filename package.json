@@ -1,0 +1,11 @@
+{
+  "name": "ds-365fitpro",
+  "packageManager": "yarn@3.3.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

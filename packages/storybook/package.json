@@ -1,0 +1,12 @@
+{
+  "name": "@ds-365fitpro/storybook",
+  "packageManager": "yarn@3.3.1",
+  "private": true,
+  "dependencies": {
+    "@ds-365fitpro/foundation": "workspace:^",
+    "@ds-365fitpro/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

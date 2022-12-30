@@ -1,0 +1,10 @@
+{
+  "name": "@ds-365fitpro/react",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "@ds-365fitpro/foundation": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
