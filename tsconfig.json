@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "declaration": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "baseUrl": ".",
+    "paths": {
+      "@ds-365fitpro/*": ["packages/*/lib"]
+    }
+  },
+  "exclude": ["node_modules", "**/*.test.*"]
+}

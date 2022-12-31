@@ -4,6 +4,9 @@
   "dependencies": {
     "@ds-365fitpro/foundation": "workspace:^"
   },
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "typescript": "^4.9.4"
   }
