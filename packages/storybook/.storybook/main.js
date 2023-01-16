@@ -7,8 +7,7 @@ module.exports = {
     '../stories/**/*.stories.@(js|jsx|ts|tsx)',
   ],
   addons: [
-    // '@storybook/addon-postcss',
-    '@storybook/addon-a11y',
+    '@storybook/addon-a11y', // <-- add this addon
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
