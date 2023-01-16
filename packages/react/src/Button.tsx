@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 
-interface ButtonProps extends React.ComponentProps<'button'> {
+export interface ButtonProps extends React.ComponentProps<'button'> {
   /** If button is in disabled state */
   disabled?: boolean;
   /** Loading state */

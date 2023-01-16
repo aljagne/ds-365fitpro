@@ -1,11 +1,11 @@
 import { forwardRef } from 'react';
 
-interface IconButtonProps extends React.ComponentProps<'button'> {
-/** If button is in disabled state */
+export interface IconButtonProps extends React.ComponentProps<'button'> {
+  /** If button is in disabled state */
   disabled?: boolean;
-/** Loading state */
+  /** Loading state */
   loading?: boolean;
-/** Aria title should be mandatory for icon buttons */
+  /** Aria title should be mandatory for icon buttons */
   'aria-label'?: string;
 }
 
